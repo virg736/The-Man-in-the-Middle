@@ -109,10 +109,9 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
   
 ### 5. Ports d’écoute
 
-- Ouvrir `cmd` et exécuter :
+- Ouvrir `cmd` et exécuter : netstat -abno | findstr LISTENING
 
-```cmd
-netstat -abno | findstr LISTENING
+
 
   
 ### Available Scripts
