@@ -7,13 +7,14 @@ A  local audit toolkit to detect proxy-based interception tools ( Burp Suite, Fi
 
 - [The Man in the Middle](#the-man-in-the-middle)
 - [What is "The Man in the Middle"?](#what-is-the-man-in-the-middle)
-- [Qu'est-ce que “L’homme du milieu” ?](#quest-ce-que-lhomme-du-milieu-)
-- [Features](#-features)
+- [Quest-ce-que-lhomme-du-milieu](#quest-ce-que-lhomme-du-milieu-)
+- [Features](#features)
 - [🇫🇷 Version française](#version-française)
 - [🇬🇧 Manual Check (Windows)](#manual-check-windows)
 - [🇫🇷 Vérification manuelle sur Windows](#vérification-manuelle-sur-windows)
-- [Automate the check with provided scripts](#automate-the-check-with-provided-scripts)
-- [Automatiser la vérification avec les scripts](#automatiser-la-vérification-avec-les-scripts)
+- [🇬🇧 Automate the check with provided scripts](#automate-the-check-with-provided-scripts)
+- [🇫🇷 Automatiser la vérification avec les scripts](#automatiser-la-vérification-avec-les-scripts)
+  
 
 _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fiddler, MITMProxy...)_
 
