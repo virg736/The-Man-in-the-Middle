@@ -104,15 +104,18 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 - **"Autorités de certification racines de confiance" > "Certificats"**
 - Chercher :
 - `PortSwigger`, `Burp`, `Proxy CA`, ou noms étranges/récents
-
+  
+  ---
+  
 ### 5. Ports d’écoute
 
 - Ouvrir `cmd` et exécuter :
+
 ```cmd
 netstat -abno | findstr LISTENING
 
----
-## Available Scripts
+  
+### Available Scripts
 
 ### Windows
 - [audit-proxy.bat](tools/audit-proxy.bat)
@@ -120,8 +123,15 @@ netstat -abno | findstr LISTENING
 ### Linux
 - [audit-proxy-linux.sh](tools/audit-proxy-linux.sh)
 
+Ces scripts effectuent les mêmes contrôles automatiquement : logiciels installés, configuration proxy, ports d’écoute, et certificats suspects.
 
- Ces scripts effectuent les mêmes contrôles automatiquement : logiciels installés, configuration proxy, ports d’écoute, et certificats suspects.
+
+
+
+
+
+
+
 
 
 
