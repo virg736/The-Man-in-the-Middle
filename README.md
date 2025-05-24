@@ -1,11 +1,15 @@
 # The Man in the Middle
 ---
-
 <p align="center">
 <img src="The%20Man%20in%20the%20Middle.PNG" alt="Man in the Middle illustration" width="500"/>
 </p>
-<p align="center"><em>Illustration d'une attaque de type Man-in-the-Middle</em></p>
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<p align="center"><em>Illustration d’une attaque de type Man-in-the-Middle</em></p>
+
+<p align="center">
+<a href="LICENSE">
+<img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+</a>
+</p>
 
 ---
 
