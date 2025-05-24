@@ -113,7 +113,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 netstat -abno | findstr LISTENING
 
 ---
-## Automate the check with provided scripts 🇬🇧
+## Automate the check with provided scripts 
 
 For a faster and repeatable audit, you can use the ready-made scripts included in this repository:
 
@@ -129,7 +129,7 @@ For a faster and repeatable audit, you can use the ready-made scripts included i
 
 ---
 
-## Automatiser la vérification avec les scripts 🇫🇷
+## Automatiser la vérification avec les scripts 
 
 Pour un audit plus rapide ou répétable, utilisez les scripts prêts à l’emploi fournis dans ce dépôt :
 
