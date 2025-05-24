@@ -11,11 +11,10 @@
 <a href="LICENSE">
 <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
 </a>
-</p>
-
 <a href="#">
 <img src="https://img.shields.io/badge/stability-stable-brightgreen.svg" alt="Stability: Stable">
 </a>
+</p>
 
 ---
 
