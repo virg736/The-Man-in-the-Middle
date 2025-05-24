@@ -1,9 +1,10 @@
 # The Man in the Middle
+---
 
 <p align="center">
-<img src="assets/the-man-in-the-middle.png" alt="Man in the Middle illustration" width="500"/>
+<img src="The%20Man%20in%20the%20Middle.PNG" alt="Man in the Middle illustration" width="500"/>
 </p>
-<!--
+
 ---
 
 Licensed under the MIT License.
