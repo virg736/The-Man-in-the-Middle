@@ -68,7 +68,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 
 
 ## Features
-- Detects suspicious proxy settings
+- Detects suspicious proxies settings
 - Finds certificates like PortSwigger / Burp
 - Works on Windows (PowerShell, CMD) and Linux (bash)
 
@@ -79,7 +79,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 **L’homme du milieu** – Outil local pour détecter les proxys malveillants, certificats suspects et outils d’interception HTTPS.
 
 ### Fonctionnalités :
-- Vérifie les paramètres proxy
+- Vérifie les paramètres proxies
 - Détecte les certificats liés à Burp, Fiddler, etc.
 - Compatible Windows (PowerShell / CMD) et Linux
 
