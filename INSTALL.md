@@ -44,7 +44,7 @@ Click on audit-proxy.bat, then click the Raw button.
 
 Right-click > Save as to download the file to your computer.
 
-
+---
 
 2. Run the script
 
@@ -52,7 +52,7 @@ Double-click the audit-proxy.bat file, or
 
 Right-click > Run as administrator (recommended).
 
-
+---
 
 3. Results
 
@@ -67,6 +67,8 @@ Proxy settings
 Listening ports
 
 And will open the certificate manager (certmgr.msc)
+
+---
 
 🇫🇷 Français
 
@@ -83,7 +85,7 @@ Cliquez sur audit-proxy.bat, puis sur le bouton Raw.
 
 Clic droit > Enregistrer sous pour télécharger le fichier sur votre ordinateur.
 
-
+---
 
 2. Exécuter le script
 
@@ -91,7 +93,7 @@ Double-cliquez sur le fichier audit-proxy.bat, ou
 
 Clic droit > Exécuter en tant qu’administrateur (recommandé).
 
-
+---
 
 3. Résultats
 
@@ -106,3 +108,5 @@ Les paramètres de proxy
 Les ports d’écoute
 
 Et ouvrira le gestionnaire de certificats (certmgr.msc)
+
+---
