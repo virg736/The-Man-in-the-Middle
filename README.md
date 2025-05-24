@@ -1,7 +1,9 @@
-# The-Man-in-the-Middle
-A  local audit toolkit to detect proxy-based interception tools ( Burp Suite, Fiddler, MITMProxy...) 
-- > **This project is available in both English and French / Ce projet est disponible en anglais et en français.**
 # The Man in the Middle
+
+A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fiddler, MITMProxy...).
+
+- *This project is available in both English and French.*
+- *Ce projet est disponible en anglais et en français.*
 
 ## Table of Contents
 
