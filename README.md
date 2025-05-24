@@ -13,6 +13,10 @@
 </a>
 </p>
 
+<a href="#">
+<img src="https://img.shields.io/badge/stability-stable-brightgreen.svg" alt="Stability: Stable">
+</a>
+
 ---
 
 Licensed under the MIT License.
