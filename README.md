@@ -76,7 +76,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 
 ## Version française 🇫🇷
 
-**L’homme du milieu** – Outil local pour détecter les proxys malveillants, certificats suspects et outils d’interception HTTPS.
+**L’homme du milieu** – outil local pour détecter les proxyies malveillants, certificats suspects et outils d’interception HTTPS.
 
 ### Fonctionnalités :
 - Vérifie les paramètres proxies
