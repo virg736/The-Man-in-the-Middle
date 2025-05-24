@@ -3,17 +3,17 @@ A  local audit toolkit to detect proxy-based interception tools ( Burp Suite, Fi
 - > **This project is available in both English and French / Ce projet est disponible en anglais et en français.**
 # The Man in the Middle
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [The Man in the Middle](#the-man-in-the-middle)
 - [What is "The Man in the Middle"?](#what-is-the-man-in-the-middle)
-- [Quest-ce-que-lhomme-du-milieu](#quest-ce-que-lhomme-du-milieu-)
+- [Qu'est-ce que “L’homme du milieu” ?](#quest-ce-que-lhomme-du-milieu-)
 - [Features](#features)
-- [🇫🇷 Version française](#version-française)
-- [🇬🇧 Manual Check (Windows)](#manual-check-windows)
-- [🇫🇷 Vérification manuelle sur Windows](#vérification-manuelle-sur-windows)
-- [🇬🇧 Automate the check with provided scripts](#automate-the-check-with-provided-scripts)
-- [🇫🇷 Automatiser la vérification avec les scripts](#automatiser-la-vérification-avec-les-scripts)
+- [Version française 🇫🇷](#version-française-)
+- [Manual Check (Windows) 🇬🇧](#manual-check-windows-)
+- [Vérification manuelle sur Windows 🇫🇷](#vérification-manuelle-sur-windows-)
+- [Automate the check with provided scripts 🇬🇧](#automate-the-check-with-provided-scripts-)
+- [Automatiser la vérification avec les scripts 🇫🇷](#automatiser-la-vérification-avec-les-scripts-)
   
 
 _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fiddler, MITMProxy...)_
@@ -35,7 +35,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 
 ---
 
-## 🇫🇷 Version française
+## Version française 🇫🇷
 
 **L’homme du milieu** – Outil local pour détecter les proxys malveillants, certificats suspects et outils d’interception HTTPS.
 
@@ -45,7 +45,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 - Compatible Windows (PowerShell / CMD) et Linux
 
   ---
-  ## 🇬🇧 Manual Check (Windows)
+  ## Manual Check (Windows) 🇬🇧
 
 > You can also manually inspect your system without running any script.
 
@@ -75,7 +75,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 
  ---
 
- ## 🇫🇷 Vérification manuelle sur Windows
+ ## Vérification manuelle sur Windows 🇫🇷
 
 > Ce module peut être complété par une vérification visuelle directe sur votre machine, sans script.
 
@@ -113,7 +113,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 netstat -abno | findstr LISTENING
 
 ---
-## 🇬🇧 Automate the check with provided scripts
+## Automate the check with provided scripts 🇬🇧
 
 For a faster and repeatable audit, you can use the ready-made scripts included in this repository:
 
@@ -129,7 +129,7 @@ For a faster and repeatable audit, you can use the ready-made scripts included i
 
 ---
 
-## 🇫🇷 Automatiser la vérification avec les scripts
+## Automatiser la vérification avec les scripts 🇫🇷
 
 Pour un audit plus rapide ou répétable, utilisez les scripts prêts à l’emploi fournis dans ce dépôt :
 
