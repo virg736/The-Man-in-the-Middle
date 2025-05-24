@@ -5,6 +5,36 @@ A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fidd
 - *This project is available in both English and French.*
 - *Ce projet est disponible en anglais et en français.*
 
+- ## ⚠️ Note de vigilance / Security Note
+
+**Pourquoi être vigilant ?**
+Un proxy ou un faux certificat peut être installé à votre insu par :
+- Un logiciel tiers (outil de débogage, VPN, outil de sécurité intrusif)
+- Un malware ou logiciel espion
+- Une configuration réseau modifiée (Wi-Fi public, entreprise, etc.)
+
+**Soyez vigilant si :**
+- Vous utilisez un réseau non sécurisé
+- Vous installez des outils d’analyse réseau ou proxy
+- Vous remarquez des comportements étranges sur votre navigateur (alertes HTTPS, certificats inconnus…)
+
+**"The Man in the Middle"** permet de détecter ces signes de compromission avant qu’ils ne deviennent critiques.
+
+---
+
+**Why should you be cautious?**
+A proxy or fake certificate can be silently installed due to:
+- Third-party software (debugging tools, VPNs, intrusive security tools)
+- Malware or spyware
+- Modified network configuration (e.g., public or corporate Wi-Fi)
+
+**Be cautious if you:**
+- Use an unsecured or unknown network
+- Install network/proxy-related tools
+- Notice unusual browser behavior (HTTPS warnings, untrusted certificates…)
+
+**"The Man in the Middle"** helps you detect these risks early before they escalate.
+
 ## Table of Contents
 
 - [The Man in the Middle](#the-man-in-the-middle)
@@ -28,6 +58,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 ### Qu'est-ce que “L’homme du milieu” ?
 
 **“L’homme du milieu”** est un petit outil local pour détecter les proxys malveillants, des certificats suspects et outils d'interception HTTPS, (Burp Suite, Fiddler ou MITMProxy).
+
 
 ## Features
 - Detects suspicious proxy settings
