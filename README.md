@@ -1,5 +1,11 @@
 # The Man in the Middle
+
+<p align="center">
+<img src="assets/the-man-in-the-middle.png" alt="Man in the Middle illustration" width="500"/>
+</p>
 <!--
+---
+
 Licensed under the MIT License.
 Copyright (c) 2025 virg736
 See the LICENSE file for full license text.
