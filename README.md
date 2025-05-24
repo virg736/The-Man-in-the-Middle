@@ -64,7 +64,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 
 ### Qu'est-ce que “L’homme du milieu” ?
 
-**“L’homme du milieu”** est un petit outil local pour détecter les proxyies malveillants, des certificats suspects et outils d'interception HTTPS, (Burp Suite, Fiddler ou MITMProxy).
+**“L’homme du milieu”** est un petit outil local pour détecter les proxys malveillants, des certificats suspects et outils d'interception HTTPS, (Burp Suite, Fiddler ou MITMProxy).
 
 
 ## Features
@@ -76,10 +76,10 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 
 ## Version française 🇫🇷
 
-**L’homme du milieu** – outil local pour détecter les proxyies malveillants, certificats suspects et outils d’interception HTTPS.
+**L’homme du milieu** – outil local pour détecter les proxys malveillants, certificats suspects et outils d’interception HTTPS.
 
 ### Fonctionnalités :
-- Vérifie les paramètres proxies
+- Vérifie les paramètres proxys
 - Détecte les certificats liés à Burp, Fiddler, etc.
 - Compatible Windows (PowerShell / CMD) et Linux
 
