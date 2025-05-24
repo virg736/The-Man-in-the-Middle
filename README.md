@@ -12,8 +12,7 @@ A  local audit toolkit to detect proxy-based interception tools ( Burp Suite, Fi
 - [Version française 🇫🇷](#version-française-)
 - [Manual Check (Windows) 🇬🇧](#manual-check-windows-)
 - [Vérification manuelle sur Windows 🇫🇷](#vérification-manuelle-sur-windows-)
-- [Automate the check with provided scripts 🇬🇧](#automate-the-check-with-provided-scripts-)
-- [Automatiser la vérification avec les scripts 🇫🇷](#automatiser-la-vérification-avec-les-scripts-)
+- [Available Scripts](#available-scripts)
   
 
 _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fiddler, MITMProxy...)_
@@ -113,35 +112,16 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 netstat -abno | findstr LISTENING
 
 ---
-## Automate the check with provided scripts 
+## Available Scripts
 
-For a faster and repeatable audit, you can use the ready-made scripts included in this repository:
-
-### Windows
-
-- [Run `audit-proxy.bat` (CMD script)](tools/audit-proxy.bat)
+###
+- [audit-proxy.bat](tools/audit-proxy.bat)
 
 ### Linux
 
-- [Run `audit-proxy-linux.sh` (Bash script)](tools/audit-proxy-linux.sh)
+- [audit-proxy-linux.sh](tools/audit-proxy-linux.sh)
 
-> These scripts perform the same checks automatically: installed tools, proxy configuration, listening ports, and suspicious certificates.
-
----
-
-## Automatiser la vérification avec les scripts 
-
-Pour un audit plus rapide ou répétable, utilisez les scripts prêts à l’emploi fournis dans ce dépôt :
-
-### Windows
-
-- [Exécuter `audit-proxy.bat` (script CMD)](tools/audit-proxy.bat)
-
-### Linux
-
-- [Exécuter `audit-proxy-linux.sh` (script Bash)](tools/audit-proxy-linux.sh)
-
-> Ces scripts effectuent les mêmes contrôles automatiquement : logiciels installés, configuration proxy, ports d’écoute, et certificats suspects.
+ Ces scripts effectuent les mêmes contrôles automatiquement : logiciels installés, configuration proxy, ports d’écoute, et certificats suspects.
 
 
 
