@@ -114,12 +114,12 @@ netstat -abno | findstr LISTENING
 ---
 ## Available Scripts
 
-###
+### Windows
 - [audit-proxy.bat](tools/audit-proxy.bat)
 
 ### Linux
-
 - [audit-proxy-linux.sh](tools/audit-proxy-linux.sh)
+
 
  Ces scripts effectuent les mêmes contrôles automatiquement : logiciels installés, configuration proxy, ports d’écoute, et certificats suspects.
 
