@@ -30,3 +30,75 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 - Vérifie les paramètres proxy
 - Détecte les certificats liés à Burp, Fiddler, etc.
 - Compatible Windows (PowerShell / CMD) et Linux
+
+  ---
+  ## 🇬🇧 Manual Check (Windows)
+
+> You can also manually inspect your system without running any script.
+
+### 1. Installed Programs
+
+- Open **Apps & Features**
+- Look for software like:
+- `Burp Suite`, `Fiddler`, `PortSwigger`, `Charles Proxy`, `MITMProxy`
+- Or anything suspicious, unknown, or recently installed
+
+### 2. Running Processes
+
+- Open the **Task Manager** (Ctrl + Shift + Esc)
+- Go to the **Details** tab
+- Look for:
+- `java.exe`, `burpsuite.exe`, `fiddler.exe`, `python.exe`, etc.
+
+### 3. Proxy Configuration
+
+- Open **Internet Options**
+- Go to **Connections** > **LAN Settings**
+- If a proxy is enabled, it should raise suspicion (e.g., `127.0.0.1:8080`)
+
+### 4. Root Certificates
+
+- Press **Win + R**, type:
+
+ ---
+
+ ## 🇫🇷 Vérification manuelle sur Windows
+
+> Ce module peut être complété par une vérification visuelle directe sur votre machine, sans script.
+
+### 1. Programmes installés
+
+- Ouvrir **Applications et fonctionnalités**
+- Rechercher dans la liste :
+- `Burp Suite`, `Fiddler`, `PortSwigger`, `Charles`, `MITMProxy`
+- Ou tout logiciel inconnu ou suspect
+
+### 2. Processus actifs
+
+- Ouvrir le **Gestionnaire des tâches**
+- Vérifier dans **l’onglet Détails** :
+- `java.exe`, `burpsuite.exe`, `fiddler.exe`, `python.exe`, etc.
+
+### 3. Paramètres proxy
+
+- Aller dans **Options Internet** > **Connexions** > **Paramètres réseau**
+- Vérifier si un proxy est activé :
+- Exemple suspect : `127.0.0.1:8080`
+
+### 4. Certificats installés
+
+- Taper `certmgr.msc` dans **Exécuter (Win + R)**
+- Aller dans :
+- **"Autorités de certification racines de confiance" > "Certificats"**
+- Chercher :
+- `PortSwigger`, `Burp`, `Proxy CA`, ou noms étranges/récents
+
+### 5. Ports d’écoute
+
+- Ouvrir `cmd` et exécuter :
+```cmd
+netstat -abno | findstr LISTENING
+
+
+
+
