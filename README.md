@@ -18,11 +18,6 @@
 
 ---
 
-Licensed under the MIT License.
-Copyright (c) 2025 virg736
-See the LICENSE file for full license text.
--->
-
 A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fiddler, MITMProxy...).
 
 - *This project is available in both English and French.*
