@@ -112,16 +112,15 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 netstat -abno | findstr LISTENING
 
 ---
-## 🔧 Automate the check with provided scripts
+## 🇬🇧 Automate the check with provided scripts
 
 For a faster and repeatable audit, you can use the ready-made scripts included in this repository:
 
-### 🪟🇬🇧 Windows
+### Windows
 
 - [Run `audit-proxy.bat` (CMD script)](tools/audit-proxy.bat)
-- [Run `audit-proxy.ps1` (PowerShell script)](audit-proxy.ps1) *(if available)*
 
-### 🐧🇬🇧 Linux
+### Linux
 
 - [Run `audit-proxy-linux.sh` (Bash script)](tools/audit-proxy-linux.sh)
 
@@ -129,21 +128,19 @@ For a faster and repeatable audit, you can use the ready-made scripts included i
 
 ---
 
-## 🔧 Automatiser la vérification avec les scripts
+## 🇫🇷 Automatiser la vérification avec les scripts
 
 Pour un audit plus rapide ou répétable, utilisez les scripts prêts à l’emploi fournis dans ce dépôt :
 
-### 🪟🇫🇷 Windows
+### Windows
 
 - [Exécuter `audit-proxy.bat` (script CMD)](tools/audit-proxy.bat)
-- [Exécuter `audit-proxy.ps1` (PowerShell)](audit-proxy.ps1) *(si présent)*
 
-### 🐧🇫🇷 Linux
+### Linux
 
 - [Exécuter `audit-proxy-linux.sh` (script Bash)](tools/audit-proxy-linux.sh)
 
 > Ces scripts effectuent les mêmes contrôles automatiquement : logiciels installés, configuration proxy, ports d’écoute, et certificats suspects.
-
 
 
 
