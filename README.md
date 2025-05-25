@@ -163,6 +163,8 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 
 Ces scripts effectuent les mêmes contrôles automatiquement : logiciels installés, configuration proxy, ports d’écoute, et certificats suspects.
 
+© 2025 Virginie Lechene — Tous droits réservés.
+
 
 
 
