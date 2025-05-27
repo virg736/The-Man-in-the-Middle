@@ -6,14 +6,15 @@
 
 <p align="center"><em>Illustration d’une attaque de type Man-in-the-Middle</em></p>
 
-<p align="center"><strong>© 2025 virg736 — Tous droits réservés. Reproduction interdite sans autorisation.</strong></p>
+<p align="center"><strong>© 2025 virg736</strong> – Tous droits réservés. Reproduction interdite sans autorisation.</p>
 
 <p align="center">
-<a href="LICENSE">
-<img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+<a href="https://creativecommons.org/licenses/by-nd/4.0/">
+<img src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" alt="Licence: CC BY-ND 4.0">
 </a>
-<img src="https://img.shields.io/badge/stability-stable-brightgreen.svg" alt="Stability: Stable">
+<img src="https://img.shields.io/badge/stabilité-stable-brightgreen.svg" alt="Stabilité: stable">
 </p>
+
 
 ---
 
