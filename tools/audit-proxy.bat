@@ -1,10 +1,11 @@
-
-
-
-
-
-
-
+# ===============================================================
+# SCRIPT D'AUDIT DE PROXY - Windows (Burp / Fiddler / MITMproxy)
+# Auteur : Virginie
+# Licence : MIT
+#
+# ⚠️ AVERTISSEMENT :
+# Usage strictement pédagogique. L’auteure décline toute responsabilité
+# en cas d’usage malveillant ou illégal.
 
 
 @echo off
