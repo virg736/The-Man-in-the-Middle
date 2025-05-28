@@ -1,3 +1,13 @@
+# ===============================================================
+# SCRIPT D'AUDIT DE PROXY - Linux (Burp / Fiddler / MITMproxy)
+# Auteur : Virginie
+# Licence : MIT
+#
+# ⚠️ AVERTISSEMENT :
+# Usage strictement pédagogique. L’auteure décline toute responsabilité
+# en cas d’usage malveillant ou illégal.
+
+
 #!/bin/bash
 
 echo "=== The Man in the Middle – Linux Audit Script ==="
