@@ -22,3 +22,31 @@ SOFTWARE.
 
 This license applies strictly to the Bash and Batch scripts provided in this repository.
 Documentation, images, and other materials may be licensed separately.
+
+
+Licence MIT
+
+Copyright (c) 2025 Virginie
+
+La présente licence accorde gratuitement à toute personne obtenant une copie
+de ce logiciel et des fichiers associés (le "Logiciel") le droit d’utiliser
+le Logiciel sans restriction, y compris mais sans s’y limiter, les droits
+d’utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier
+et/ou vendre des copies du Logiciel, et de permettre aux personnes à qui le
+Logiciel est fourni d’en faire de même, sous réserve des conditions suivantes :
+
+La mention de copyright ci-dessus et la présente autorisation devront être
+incluses dans toutes copies ou portions substantielles du Logiciel.
+
+LE LOGICIEL EST FOURNI "EN L'ÉTAT", SANS AUCUNE GARANTIE, EXPRESSE OU IMPLICITE,
+Y COMPRIS MAIS SANS S’Y LIMITER LES GARANTIES DE QUALITÉ MARCHANDE, D’ADÉQUATION
+À UN USAGE PARTICULIER ET D’ABSENCE DE CONTREFAÇON. EN AUCUN CAS LES AUTEURS OU
+TITULAIRES DU COPYRIGHT NE POURRONT ÊTRE TENUS POUR RESPONSABLES DE TOUT DOMMAGE,
+RÉCLAMATION OU AUTRE RESPONSABILITÉ, QUE CE SOIT DANS UNE ACTION CONTRACTUELLE,
+DÉLICTUELLE OU AUTRE, DÉCOULANT DE, OU EN LIEN AVEC LE LOGICIEL OU L’UTILISATION
+OU D’AUTRES MANIÈRES DE TRAITER LE LOGICIEL.
+
+---
+
+📌 Cette licence s'applique **exclusivement aux scripts Bash et Batch** fournis dans ce dépôt.
+Les documents, visuels ou autres fichiers peuvent être couverts par une licence différente.
