@@ -167,16 +167,30 @@ Ces scripts effectuent les mêmes contrôles automatiquement : logiciels install
 ---
 ## 7. Avertissement légal
 
- Ce projet est exclusivement destiné à des fins éducatives, dans le cadre de la formation à la cybersécurité.
- L’auteure ne cautionne ni n’autorise l’utilisation de ces techniques en dehors d’un cadre légal strictement défini.
- Toute utilisation non autorisée est interdite et relève de la seule responsabilité de l’utilisateur.
+  ## Licence
 
+Le script est publié sous la licence **MIT**.
 
-## 8. Auteur / Droits
+---
+
+## À propos de l’usage
+
+Ce projet est destiné **exclusivement à des fins pédagogiques**, notamment dans le cadre :
+- d’une formation en cybersécurité,
+- de tests d’intrusion légaux (pentest),
+- d’analyses réseau dans un environnement contrôlé.
+
+> L’auteure **ne cautionne ni n’autorise** l’utilisation de ce script en dehors d’un cadre légal strictement défini.
+> Toute utilisation non conforme est interdite et relève **uniquement de la responsabilité de l’utilisateur**.
+
+---
+
+## Droits sur les visuels
+
+Les visuels, illustrations ou captures présents dans ce dépôt sont la propriété exclusive de l’auteure.
+Toute reproduction ou réutilisation sans **autorisation préalable** est interdite.
 
 © 2025 Virginie Lechene — Tous droits réservés.
-Reproduction interdite sans autorisation.
-
 
 
 
