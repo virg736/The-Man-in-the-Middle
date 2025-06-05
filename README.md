@@ -1,3 +1,6 @@
+![ShellCheck](https://github.com/virg736/The-Man-in-the-Middle/actions/workflows/shellcheck.yml/badge.svg)
+  
+
 # The Man in the Middle
 
 <p align="center">
