@@ -1,5 +1,5 @@
-![ShellCheck](https://github.com/virg736/The-Man-in-the-Middle/actions/workflows/shellcheck.yml/badge.svg)
-  
+[![ShellCheck](https://github.com/virg736/The-Man-in-the-Middle/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/virg736/The-Man-in-the-Middle/actions/workflows/shellcheck.yml)
+
 
 # The Man in the Middle
 
