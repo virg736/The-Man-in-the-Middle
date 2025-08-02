@@ -1,8 +1,4 @@
-# The Man in the Middle
-
 [![CodeQL](https://github.com/virg736/The-Man-in-the-Middle/actions/workflows/codeql.yml/badge.svg)](https://github.com/virg736/The-Man-in-the-Middle/actions/workflows/codeql.yml)
-
-
 # The Man in the Middle
 
 <p align="center">
