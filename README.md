@@ -79,7 +79,7 @@ netsh winhttp show proxy
 
 2. Taper dans la barre d’adresse :
 
-about:preferences:general
+about:preferences#general
 
 3. Descendre jusqu'à **Paramètres réseau** → cliquer sur **Paramètres…**
 4. Regarder :
