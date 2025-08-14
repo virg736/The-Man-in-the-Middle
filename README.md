@@ -24,7 +24,7 @@
 A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fiddler, MITMProxy...).
 
 ---
-## ⚠️ Note de vigilance / Security Note
+## ⚠️ Note de vigilance 
 
 **Pourquoi être vigilant ?**
 Un proxy ou un faux certificat peut être installé à votre insu par :
