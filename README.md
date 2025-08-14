@@ -23,9 +23,6 @@
 
 A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fiddler, MITMProxy...).
 
-- *This project is available in both English and French.*
-- *Ce projet est disponible en anglais et en français.*
-
 ---
 ## ⚠️ Note de vigilance / Security Note
 
@@ -37,47 +34,22 @@ Un proxy ou un faux certificat peut être installé à votre insu par :
 
 ---
 
-**Why should you be cautious?**
-A proxy or fake certificate can be silently installed due to:
-- Third-party software (debugging tools, VPNs, intrusive security tools)
-- Malware or spyware
-- Modified network configuration (e.g., public or corporate Wi-Fi)
-
----
-
 ## Table of Contents
 
 - [The Man in the Middle](#the-man-in-the-middle)
 - [What is "The Man in the Middle"?](#what-is-the-man-in-the-middle)
 - [Qu'est-ce que “L’homme du milieu” ?](#quest-ce-que-lhomme-du-milieu-)
 - [Features](#features)
-- [Version française 🇫🇷](#version-française-)
 - [Manual Check (Windows) 🇬🇧](#manual-check-windows-)
 - [Vérification manuelle sur Windows 🇫🇷](#vérification-manuelle-sur-windows-)
 - [Available Scripts](#available-scripts)
   
-
-_A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fiddler, MITMProxy...)_
-
-### What is "The Man in the Middle"?
-
-**"The Man in the Middle"** is a simple toolkit to help users detect whether their computer is being intercepted by a local proxy or fake root certificate. It’s useful for identifying potential intrusions from tools like Burp Suite, Fiddler, or MITMProxy.
-
 ---
 
 ### Qu'est-ce que “L’homme du milieu” ?
 
 **“L’homme du milieu”** est un petit outil local pour détecter les proxys malveillants, des certificats suspects et outils d'interception HTTPS, (Burp Suite, Fiddler ou MITMProxy).
 
-
-## Features
-- Detects suspicious proxies settings
-- Finds certificates like PortSwigger / Burp
-- Works on Windows (PowerShell, CMD) and Linux (bash)
-
----
-
-## Version française 🇫🇷
 
 **L’homme du milieu** – outil local pour détecter les proxys malveillants, certificats suspects et outils d’interception HTTPS.
 
@@ -87,35 +59,80 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 - Compatible Windows (PowerShell / CMD) et Linux
 
   ---
-  ## Manual Check (Windows) 🇬🇧
 
-> You can also manually inspect your system without running any script.
+##  Détection simple d’un Homme du Milieu (MITM)
 
-### 1. Installed Programs
+### 1️⃣ Vérifier le proxy dans Windows
+Commande :
+cmd
 
-- Open **Apps & Features**
-- Look for software like:
-- `Burp Suite`, `Fiddler`, `PortSwigger`, `Charles Proxy`, `MITMProxy`
-- Or anything suspicious, unknown, or recently installed
+netsh winhttp show proxy
 
-### 2. Running Processes
+- **Normal** : Accès direct (sans serveur proxy)
+- **Suspect** : adresse IP ou `127.0.0.1:PORT` indiquant un proxy actif.
 
-- Open the **Task Manager** (Ctrl + Shift + Esc)
-- Go to the **Details** tab
-- Look for:
-- `java.exe`, `burpsuite.exe`, `fiddler.exe`, `python.exe`, etc.
+---
 
-### 3. Proxy Configuration
+### 2️⃣ Vérifier le proxy dans Firefox
+1. Ouvrir Firefox
+2. Taper dans la barre d’adresse :
 
-- Open **Internet Options**
-- Go to **Connections** > **LAN Settings**
-- If a proxy is enabled, it should raise suspicion (e.g., `127.0.0.1:8080`)
 
-### 4. Root Certificates
+- **Normal** : Accès direct (sans serveur proxy)
+- **Suspect** : adresse IP ou `127.0.0.1:PORT` indiquant un proxy actif.
 
-- Press **Win + R**, type:
+---
 
- ---
+### 2️⃣ Vérifier le proxy dans Firefox
+1. Ouvrir Firefox
+2. Taper dans la barre d’adresse :
+
+- **Normal** : Accès direct (sans serveur proxy)
+- **Suspect** : adresse IP ou `127.0.0.1:PORT` indiquant un proxy actif.
+
+---
+
+### 2️⃣ Vérifier le proxy dans Firefox
+1. Ouvrir Firefox
+2. Taper dans la barre d’adresse :
+
+- **Normal** : Accès direct (sans serveur proxy)
+- **Suspect** : adresse IP ou `127.0.0.1:PORT` indiquant un proxy actif.
+
+---
+
+### 2️⃣ Vérifier le proxy dans Firefox
+
+1. Ouvrir Firefox  
+
+2. Taper dans la barre d’adresse :
+
+about:preferences%23general
+
+3. Descendre jusqu'à **Paramètres réseau** → cliquer sur **Paramètres…**
+4. Regarder :
+- **Normal** : Pas de proxy / Utiliser les paramètres proxy du système
+- **Suspect** : Configuration manuelle avec IP ou port.
+
+---
+
+### 3️⃣ Vérifier les certificats dans Firefox
+1. Dans Firefox, taper :
+
+about:certificate
+
+2. Onglet **Autorités** : vérifier la liste
+3. **Normal** : DigiCert, GlobalSign, Let's Encrypt, etc.
+4. **Suspect** : Burp, PortSwigger, Proxy CA, Fiddler, MITMProxy.
+
+---
+
+### 4️⃣ Vérifier les ports ouverts
+Commande :
+cmd
+
+netstat -abno | findstr LISTENING
+
 
  ## Vérification manuelle sur Windows 🇫🇷
 
@@ -154,8 +171,7 @@ _A local audit toolkit to detect proxy-based interception tools (Burp Suite, Fid
 
 - Ouvrir `cmd` et exécuter : netstat -abno | findstr LISTENING
 
-
-
+- 
   
 ### Available Scripts
 
