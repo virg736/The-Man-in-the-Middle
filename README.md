@@ -74,22 +74,12 @@ netsh winhttp show proxy
 ---
 
 ### 2️⃣ Vérifier le proxy dans Firefox
-1. Ouvrir Firefox
-2. Taper dans la barre d’adresse :
-
-
-- **Normal** : Accès direct (sans serveur proxy)
-- **Suspect** : adresse IP ou `127.0.0.1:PORT` indiquant un proxy actif.
-
----
-
-### 2️⃣ Vérifier le proxy dans Firefox
 
 1. Ouvrir Firefox  
 
 2. Taper dans la barre d’adresse :
 
-about:preferences%23general
+about:preferences:general
 
 3. Descendre jusqu'à **Paramètres réseau** → cliquer sur **Paramètres…**
 4. Regarder :
