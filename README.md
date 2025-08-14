@@ -93,7 +93,7 @@ about:preferences#general
 
 about:certificate
 
-2. Onglet **Autorités** : vérifier la liste
+2. Onglet **Autorités** : vérifier la liste des autorités
 3. **Normal** : DigiCert, GlobalSign, Let's Encrypt, etc.
 4. **Suspect** : Burp, PortSwigger, Proxy CA, Fiddler, MITMProxy.
 
@@ -108,7 +108,7 @@ netstat -abno | findstr LISTENING
 
  ## Vérification manuelle sur Windows 🇫🇷
 
-> Ce module peut être complété par une vérification visuelle directe sur votre machine, sans script.
+> Ce module peut se compléter par une vérification visuelle directe sur votre machine, sans script.
 
 ### 1. Programmes installés
 
